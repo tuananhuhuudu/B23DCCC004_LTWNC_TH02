@@ -1,0 +1,12 @@
+[startGroup] action assignments/addAssignment @ 15:21:33.039 
+[log] prev state font-weight: bold Object
+[log] action font-weight: bold Object
+[log] next state font-weight: bold Object
+[startGroup] action assignments/toggleComplete @ 15:21:33.878 
+[log] prev state font-weight: bold Object
+[log] action font-weight: bold Object
+[log] next state font-weight: bold Object
+[startGroup] action assignments/removeAssignment @ 15:21:34.689 
+[log] prev state font-weight: bold Object
+[log] action font-weight: bold Object
+[log] next state font-weight: bold Object
