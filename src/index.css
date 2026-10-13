@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.app {
+  padding: 16px;
+  min-height: 100vh;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+.app.dark {
+  background: #1a1a1a;
+  color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+}
+
+.card-main {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.card-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.title.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.due.overdue {
+  color: #c62828;
+  font-weight: 600;
+}
